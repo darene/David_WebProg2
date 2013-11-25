@@ -1,0 +1,4 @@
+<?php
+$pasok = mysql_connect("localhost","root","") or die("Mahina signal");
+mysql_select_db("guestbook_db",$pasok) or die("Hindi Makapasok!!!");
+?>
